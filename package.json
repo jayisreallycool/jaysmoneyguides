@@ -1,0 +1,38 @@
+{
+  "name": "jaysmoneyguides",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "server": "tsx server.ts",
+    "server:dev": "tsx watch server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "pdfjs-dist": "^4.0.379",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^6.20.1",
+    "stripe": "^13.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.21",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "oxlint": "^1.75.0",
+    "tsx": "^4.7.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
